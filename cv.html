@@ -4,56 +4,86 @@
     <meta charset="UTF-8">
     <title>CV Saya</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
             line-height: 1.6;
             max-width: 800px;
-            margin: 40px;
+            margin: 40px auto;
             padding: 20px;
-            color: #333;
+            color: #000000;
             background-color: #f9f9f9;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
             border-radius: 8px;
         }
+        h2 {
+            color: rgb(0, 0, 172);
+            margin: 0;
+            text-align: center;
+        }
         h3 {
-            color: #444;
+            color: #000000;
             border-bottom: 2px solid #ddd;
             padding-bottom: 5px;
             margin-top: 25px;
+        }
+        p {
+            text-align: justify;
+            margin: 5px 0;
         }
         hr {
             border: none;
             border-top: 2px solid #ccc;
             margin: 15px 0;
         }
-        p {text-align: justify;}
-        h2 {color:rgb(0, 0, 172)}
+        .contact-info {
+            text-align: center;
+            margin: 8px 0;
+            font-size: 14px;
+            color: #000000;
+        }
+        .header-container {
+            display: flex;
+            align-items: center; 
+            gap: 20px;
+            margin-top: 15px;
+        }
+        .header-container img {
+            border-radius: 10px;
+            width: 150px;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <h2>Abdul Ghani Rosyad</h2>
-    <img src="fotocv.jpg" alt="Foto CV" width="150" style="border-radius: 10px;">
-    <p>Sepinggan Baru, Balikpapan Selatan | 081649520165 | Ghanirosyad6@gmail.com</p>
+    <p class="contact-info">
+        Sepinggan Baru, Balikpapan Selatan | 081649520165 | Ghanirosyad6@gmail.com
+    </p>
     <hr>
 
-    <h3>TENTANG SAYA</h3>
-    <p>Sebagai mahasiswa Sistem Informasi semester 3 di Telkom University Jakarta, saya memiliki dasar teoritis yang kuat dalam pengembangan teknologi informasi dan manajemen data. Meskipun pengalaman saya masih terbatas, saya telah terbiasa bekerja secara kolaboratif dalam tim dan mandiri untuk mencapai tujuan. Saya adalah seorang pembelajar yang cepat, selalu antusias untuk mendalami hal-hal baru, dan berkomitmen untuk mengaplikasikan pengetahuan saya di dunia nyata. Saya sangat bersemangat untuk mengembangkan keahlian saya, khususnya dalam analisis sistem, dan berkontribusi dalam menciptakan solusi IT yang efisien.</p>
+    <div class="header-container">
+        <img src="fotocv.jpg" alt="Foto CV">
+        <div class="header-info">
+            <h3>Tentang Saya</h3>
+            <p>Sebagai mahasiswa Sistem Informasi semester 3 di Telkom University Jakarta, saya memiliki dasar teoritis yang kuat dalam pengembangan teknologi informasi dan manajemen data. Saya terbiasa bekerja secara kolaboratif dalam tim maupun mandiri untuk mencapai tujuan. Saya adalah pembelajar cepat, antusias dalam mendalami hal-hal baru, dan berkomitmen untuk mengaplikasikan pengetahuan di dunia nyata. Saat ini saya bersemangat mengembangkan keahlian khususnya dalam analisis sistem dan berkontribusi menciptakan solusi IT yang efisien.</p>
+        </div>
+    </div>
 
-    <h3>PENDIDIKAN</h3>
-    <p>Telkom University | S1-Sistem Informasi</p>
+    <h3>Pendidikan</h3>
+    <p><strong>Telkom University</strong> | S1-Sistem Informasi</p>
     <p>(2024 - Sekarang)</p>
-    <p>IPK: 3.80/4.00</p>
+    <p>IPK: 3.80 / 4.00</p>
 
-    <h3>PENGALAMAN ORGANISASI</h3>
-    <p>Marketing Crew Telkom University Jakarta bagian Telemarketing</p>
+    <h3>Pengalaman Organisasi</h3>
+    <p><strong>Marketing Crew</strong> | Telkom University Jakarta (Telemarketing)</p>
     <p>(2024 - Sekarang)</p>
-   
-    <h3>KEAHLIAN</h3>
+    
+    <h3>Keahlian</h3>
     <ul>
-        <li>Perangkat Lunak: Microsoft Office (Word, Excel, PowerPoint), Canva, Visual Studio Code.</li>
-        <li>Soft Skill: Public Speaking, Teamwork, Cepat Beradaptasi, Berpikir Kritis.</li>
-        <li>Bahasa Pemrograman: C#, HTML, JAVA, SQL Dasar.</li>
-        <li>Bahasa: Indonesia dan Inggris Dasar.</li>
+        <li><strong>Perangkat Lunak:</strong> Microsoft Office (Word, Excel, PowerPoint), Canva, Visual Studio Code.</li>
+        <li><strong>Soft Skill:</strong> Public Speaking, Teamwork, Cepat Beradaptasi, Berpikir Kritis.</li>
+        <li><strong>Bahasa Pemrograman:</strong> C#, HTML, Java, SQL Dasar.</li>
+        <li><strong>Bahasa:</strong> Indonesia dan Inggris Dasar.</li>
     </ul>
 </body>
 </html>
